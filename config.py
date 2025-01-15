@@ -28,7 +28,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID",))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7332532623))
+OWNER_ID = int(getenv("OWNER_ID", 2090799372))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DEV_UPDATE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ixynilGaD981OWI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AURORA_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AURORA_UPDATE")
 REPO = getenv("REPO", "https://github.com/KRISHtg/AnonXMusic2")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -85,13 +85,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/SL_.jpg"
+    "START_IMG_URL", "https://envs.sh/NLM.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/5af2ed853c7652764a0af.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/0-7.jpg"
-STATS_IMG_URL = "https://envs.sh/SLZ.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/NLM.jpg"
+STATS_IMG_URL = "https://envs.sh/NLM.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
